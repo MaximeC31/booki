@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang='fr'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='publisher' content='Maxime CHAMPIGNEUX'>
+    <meta name='author' content='Maxime CHAMPIGNEUX'>
+    <meta name='copyright' content='Maxime CHAMPIGNEUX'>
+
+    <meta name='robots' content='index, follow'>
+    <!-- <link rel='canonical' href=''> -->
+    <title>Booki, Location d'hébergements de vacances</title>
+    <meta name='description'
+        content="Nous vous proposons la locaton d'hébergements de vacances pour une expérience paradisiaque">
+
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content="Booki, Location d'hébergements de vacances">
+    <meta property='og:description'
+        content="Nous vous proposons la locaton d'hébergements de vacances pour une expérience paradisiaque">
+    <meta property='og:image' content='./images/logo/Booki.png'>
+
+    <meta property='twitter:card' content='summary_large_image'>
+    <meta property='twitter:title' content="Booki, Location d'hébergements de vacances">
+    <meta property='twitter:description'
+        content="Nous vous proposons la locaton d'hébergements de vacances pour une expérience paradisiaque">
+    <meta property='twitter:image' content='./images/logo/Booki.png'>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0'>
+    <link rel='shortcut icon' href='./images/logo/Booki-favicon.svg' type='image/svg'>
+    <link rel="preload" as='style' onload='this.rel="stylesheet"' href='./css/reset.css'>
+    <link rel="preload" as='style' onload='this.rel="stylesheet"' href='./css/style.css'>
+    <link rel="preload" as='style' onload='this.rel="stylesheet"'
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <script async src="https://kit.fontawesome.com/2f6094b199.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class='header'>
+        <a href='#' class="header__link">
+            <img class='header__link__logo' src='./images/logo/Booki.png' alt='logo de Booki'>
+        </a>
+        <nav class='header__nav'>
+            <ul class='header__nav__list'>
+                <li class='header__nav__list__item'>
+                    <a href='#hosting' class='header__nav__list__item__link'>Hébergements</a>
+                </li>
+                <li class='header__nav__list__item'>
+                    <a href='#activity' class='header__nav__list__item__link'>Activités</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class='main'>
+        <section class='search-filter'>
+            <h1 class='search-filter__title'>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+            <form class='search-filter__form'>
+                <i class='fa-solid fa-location-dot search-filter__form__icon'></i>
+                <input class='search-filter__form__input' type='text' placeholder='Rechercher la destination'>
+                <button class='search-filter__form__submit' type='submit'>Rechercher</button>
+                <button class='search-filter__form__submit--icon' type='submit'><i
+                        class="fa-solid fa-magnifying-glass search-filter__form__submit--icon--search"></i></button>
+            </form>
+            <div class='search-filter__filter'>
+                <p class='search-filter__filter__title'>Filtres</p>
+                <ul class='search-filter__filter__list'>
+                    <li class='search-filter__filter__list__item'>
+                        <i class='fa-solid fa-money-bill-1-wave search-filter__filter__list__icon'></i>
+                        Économique
+                    </li>
+                    <li class='search-filter__filter__list__item'>
+                        <i class='fa-solid fa-person search-filter__filter__list__icon'></i>
+                        Familial
+                    </li>
+                    <li class='search-filter__filter__list__item'>
+                        <i class='fa-solid fa-heart search-filter__filter__list__icon'></i>
+                        Romantique
+                    </li>
+                    <li class='search-filter__filter__list__item'>
+                        <i class='fa-solid fa-fire search-filter__filter__list__icon'></i>
+                        Nos pépites
+                    </li>
+                </ul>
+            </div>
+            <p class='search-filter__results__text'>
+                <i class='fa-solid fa-info search-filter__results__text__icon'></i>
+                Plus de 500 logements sont disponibles dans cette ville
+            </p>
+        </section>
+
+        <section id='hosting' class='hosting'>
+            <div class='hosting__results'>
+                <div class='hosting__results__bg'>
+                    <h2 class='hosting__results__bg__title'>Hébergements à Marseille</h2>
+                    <div class='hosting__results__bg__container'>
+                        <article class='hosting__results__bg__container__hosting'>
+                            <a href='#' class='hosting__results__bg__container__hosting__link'>
+                                <img class='hosting__results__bg__container__hosting__img'
+                                    src='./images/hebergements/fred-kleber.jpg' alt='hotel du port marseillais'>
+                                <div class='hosting__results__bg__container_hosting__info--container'>
+                                    <h3 class='hosting__results__bg__container__hosting__title'>Hôtel du Port</h3>
+                                    <p class='hosting__results__bg__container__hosting__text'>Nuit à partir de 52€</p>
+                                    <div>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--grey'></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class='hosting__results__bg__container__hosting'>
+                            <a href='#' class='hosting__results__bg__container__hosting__link'>
+                                <img class='hosting__results__bg__container__hosting__img'
+                                    src='./images/hebergements/febrian-zakaria.jpg' alt='hotel chez Amina Marseille'>
+                                <div class='hosting__results__bg__container_hosting__info--container'>
+                                    <h3 class='hosting__results__bg__container__hosting__title'>Hôtel chez Amina</h3>
+                                    <p class='hosting__results__bg__container__hosting__text'>Nuit à partir de 96€</p>
+                                    <div>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--grey'></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class='hosting__results__bg__container__hosting'>
+                            <a href='#' class='hosting__results__bg__container__hosting__link'>
+                                <img class='hosting__results__bg__container__hosting__img'
+                                    src='./images/hebergements/reisetopia.jpg' alt='hotel les mouettes Marseille'>
+                                <div class='hosting__results__bg__container_hosting__info--container'>
+                                    <h3 class='hosting__results__bg__container__hosting__title'>Hôtel Les Mouettes</h3>
+                                    <p class='hosting__results__bg__container__hosting__text'>Nuit à partir de 76€</p>
+                                    <div>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--grey'></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class='hosting__results__bg__container__hosting'>
+                            <a href='#' class='hosting__results__bg__container__hosting__link'>
+                                <img class='hosting__results__bg__container__hosting__img'
+                                    src='./images/hebergements/annie-spratt.jpg' alt='hotel de la mer Marseille'>
+                                <div class='hosting__results__bg__container_hosting__info--container'>
+                                    <h3 class='hosting__results__bg__container__hosting__title'>Hôtel de la Mer</h3>
+                                    <p class='hosting__results__bg__container__hosting__text'>Nuit à partir de 46€</p>
+                                    <div>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--grey'></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class='hosting__results__bg__container__hosting'>
+                            <a href='#' class='hosting__results__bg__container__hosting__link'>
+                                <img class='hosting__results__bg__container__hosting__img'
+                                    src='./images/hebergements/marcus-loke.jpg' alt='auberge la canebière Marseille'>
+                                <div class='hosting__results__bg__container_hosting__info--container'>
+                                    <h3 class='hosting__results__bg__container__hosting__title'>Auberge la Canebière
+                                    </h3>
+                                    <p class='hosting__results__bg__container__hosting__text'>Nuit à partir de 25€</p>
+                                    <div>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--grey'></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class='hosting__results__bg__container__hosting'>
+                            <a href='#' class='hosting__results__bg__container__hosting__link'>
+                                <img class='hosting__results__bg__container__hosting__img'
+                                    src='./images/hebergements/nicate-lee.jpg' alt='auberge la panier Marseille'>
+                                <div class='hosting__results__bg__container_hosting__info--container'>
+                                    <h3 class='hosting__results__bg__container__hosting__title'>Auberge le Panier</h3>
+                                    <p class='hosting__results__bg__container__hosting__text'>Nuit à partir de 23€</p>
+                                    <div>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--blue'></i>
+                                        <i class='fas fa-star hosting__results__bg__container__hosting__star--grey'></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <a class='hosting__results__bg__seemore' href='#'>Afficher plus</a>
+                </div>
+            </div>
+
+            <div class='hosting__popular'>
+                <div class='hosting__popular__title--container'>
+                    <h2 class='hosting__popular__title--container__title'>Les plus populaires</h2>
+                    <i class='fas fa-chart-line hosting__popular__title--container__icon'></i>
+                </div>
+                <div class='hosting__popular__result--container'>
+                    <article class='hosting__popular__result'>
+                        <a class='hosting__popular__result__link' href='#'>
+                            <img class='hosting__popular__result__link__img'
+                                src='./images/hebergements/emile-guillemot.jpg'
+                                alt='hotel le soleil du matin Marseille'>
+                            <div class='hosting__popular__result__link__container'>
+                                <div>
+                                    <h3 class='hosting__popular__result__link__container__title'>Hôtel le Soleil du
+                                        Matin</h3>
+                                    <p class='hosting__popular__result__link__container__paragraph'>Nuit à partir de
+                                        128€</p>
+                                </div>
+                                <div>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__grey'></i>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class='hosting__popular__result'>
+                        <a class='hosting__popular__result__link' href='#'>
+                            <img class='hosting__popular__result__link__img' src='./images/hebergements/aw-creative.jpg'
+                                alt="chambres d\'hôtes au coeur de l\'eau Marseille">
+                            <div class='hosting__popular__result__link__container'>
+                                <div>
+                                    <h3 class='hosting__popular__result__link__container__title'>Chambres d'Hôtes au
+                                        Coeur de l'Eau</h3>
+                                    <p class='hosting__popular__result__link__container__paragraph'>Nuit à partir de 71€
+                                    </p>
+                                </div>
+                                <div>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__grey'></i>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class='hosting__popular__result'>
+                        <a class='hosting__popular__result__link' href='#'>
+                            <img class='hosting__popular__result__link__img'
+                                src='./images/hebergements/febrian-zakaria2.jpg' alt='hotel bleu et blanc Marseille'>
+                            <div class='hosting__popular__result__link__container'>
+                                <div>
+                                    <h3 class='hosting__popular__result__link__container__title'>Hôtel Bleu et Blanc
+                                    </h3>
+                                    <p class='hosting__popular__result__link__container__paragraph'>Nuit à partir de 68€
+                                    </p>
+                                </div>
+                                <div>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__blue'></i>
+                                    <i class='fas fa-star hosting__popular__result__link__container__icon__grey'></i>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id='activity' class='activity'>
+            <h2 class='activity__title'>Activités à Marseille</h2>
+            <div class='activity__item'>
+                <article class='activity__item__article'>
+                    <a class='activity__item__article__link' href='#'>
+                        <img class='activity__item__article__img' src='./images/activites/reno-laithienne.jpg'
+                            alt='le vieux-port Marseille'>
+                        <h3 class='activity__item__article__subtitle'>Vieux-Port</h3>
+                    </a>
+                </article>
+                <article class='activity__item__article'>
+                    <a class='activity__item__article__link' href='#'>
+                        <img class='activity__item__article__img' src='./images/activites/paul-hermann.jpg'
+                            alt='fort de pomègues Marseille'>
+                        <h3 class='activity__item__article__subtitle'>Fort de Pomègues</h3>
+                    </a>
+                </article>
+                <article class='activity__item__article'>
+                    <a class='activity__item__article__link' href='#'>
+                        <img class='activity__item__article__img' src='./images/activites/kilyan-sockalingum.jpg'
+                            alt='parc national des calanques Marseille'>
+                        <h3 class='activity__item__article__subtitle'>Parc National des Calanques</h3>
+                    </a>
+                </article>
+                <article class='activity__item__article'>
+                    <a class='activity__item__article__link' href='#'>
+                        <img class='activity__item__article__img' src='./images/activites/florian-wehde.jpg'
+                            alt='notre dame de la garde Marseille'>
+                        <h3 class='activity__item__article__subtitle'>Notre-Dame-de-la-Garde</h3>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class='footer'>
+        <div class='footer__col'>
+            <p class='footer__col__title'>À propos</p>
+            <ul class='footer__col__list'>
+                <li><a class='footer__col__list__link' href='#'>Fonctionnement du site</a></li>
+                <li><a class='footer__col__list__link' href='#'>Conditions générales</a></li>
+                <li><a class='footer__col__list__link' href='#'>Données et confidentialité</a></li>
+            </ul>
+        </div>
+        <div class='footer__col'>
+            <p class='footer__col__title'>Nos hébergements</p>
+            <ul class='footer__col__list'>
+                <li><a class='footer__col__list__link' href='#'>Charte qualité</a></li>
+                <li><a class='footer__col__list__link' href='#'>Proposer votre hôtel</a></li>
+            </ul>
+        </div>
+        <div class='footer__col'>
+            <p class='footer__col__title'>Assistance</p>
+            <ul class='footer__col__list'>
+                <li><a class='footer__col__list__link' href='#'>Centre d'aide</a></li>
+                <li><a class='footer__col__list__link' href='#'>Nous contacter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
