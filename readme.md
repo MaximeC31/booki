@@ -1,6 +1,6 @@
 # Booki
 
-Site web one-page de réservation de voyages (hébergements et activités), entièrement codé from scratch en HTML/CSS.
+Interface responsive de recherche d’hébergements et d’activités à Marseille, intégrée en HTML et CSS.
 
 ## Comment le démarrer
 
